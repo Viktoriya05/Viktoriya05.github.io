@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Infinite Scroll</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><a href="index.html" class="col">ART21</a></header>
+    <div class="burger-toggle" id="burger-toggle">&#9776;</div>
+    <div class="burger-menu" id="burger-menu">
+        <ul>
+            <li><a href="index.html" class="col">Главная</a></li>
+            <li><a href="page1.html" class="col">Энвайронмент</a></li>
+            <li><a href="page2.html" class="col">Граффити</a></li>
+            <li><a href="page3.html" class="col">Mail-арт</a></li>
+            <li><a href="page4.html" class="col">Net-арт</a></li>
+            <li><a href="dog-scroll.html" class="col">Лента собак</a></li>
+            <li><a href="math-form.html" class="col">Форма расчетов</a></li>
+            <div id="theme-switcher" class="theme-switcher">
+                <img id="sun-icon" alt="Sun Icon" class="theme-icon">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <img id="moon-icon" alt="Moon Icon" class="theme-icon">
+            </div>
+        </ul>
+    </div>
+    <div id="main">
+        <article>
+            <div class="dog-container" id="dog-container">
+                <!-- Dog images will be appended here -->
+            </div>
+            <button id="load-more" class="centered-button">Load More Dogs</button>
+        </article>
+        <div class="col">
+        <button id="show-fact" class="fixed-button">Show Cat Fact</button>
+        <div class="overlay" id="overlay">
+            <div id="cat-fact-popup" class="popup">
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    <div class="null"></div>
+                    <p id="cat-fact"></p>
+                </div>
+            </div>
+        </div>
+  </div>
+    <footer></footer>
+    <script src="js/app.js"></script>
+    <script src="js/fetch.js"></script>
+</body>
+</html>
