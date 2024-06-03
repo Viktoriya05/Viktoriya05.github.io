@@ -319,7 +319,7 @@ input:checked + .slider:before {
 }
 
 .dark-theme body {
-    background: url("../image/top-dark.jpg") no-repeat center / cover;
+    background: url("image/top-dark.jpg") no-repeat center / cover;
 }
 
 .dark-theme #main > article {

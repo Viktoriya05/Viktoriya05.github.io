@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const overlay = document.getElementById('overlay');
 
     // Загрузка иконок
-    sunIcon.src = '../ART/image/sun.png';
-    moonIcon.src = '../ART/image/moon.png';
+    sunIcon.src = 'image/sun.png';
+    moonIcon.src = 'image/moon.png';
 
 
     showFactButton.onclick = async function() {
